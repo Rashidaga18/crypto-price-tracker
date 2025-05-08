@@ -1,78 +1,70 @@
-# crypto-price-tracker
-A simple and responsive web app built with React and Redux Toolkit that shows live updates for top cryptocurrencies. It displays price changes, market cap, volume, and a 7-day performance chart updated every few seconds to simulate real-time data.
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Quick Start
+## Available Scripts
 
-Getting the app running locally is pretty straightforward:
+In the project directory, you can run:
 
-bash
- Clone this repo
-git clone https://github.com/your-username/crypto-price-tracker.git
+### `npm start`
 
-# Move into the project directory
-cd crypto-price-tracker
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Install dependencies
-npm install
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# Fire up the development server
-npm run dev
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Then open your browser and navigate to `http://localhost:8080` to see the app in action.
+### `npm run build`
 
-## What's Inside
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-This project demonstrates real-time data updates with a clean, responsive UI. Here's what I used to build it:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Tech Stack
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **React 18** - UI components and rendering
-- **Redux Toolkit** - State management for all cryptocurrency data
-- **TypeScript** - Type safety throughout the codebase
-- **Tailwind CSS** - Utility-first styling approach
-- **Recharts** - Simple line charts for price history
-- **Vite** - Fast development and build tool
+### `npm run eject`
 
-### Project Structure
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-```
-src/
-├── components/           # UI components
-├── lib/
-│   ├── data/            # Mock data generation
-│   ├── services/        # WebSocket service simulation
-│   ├── store/           # Redux store and slices
-│   ├── types/           # TypeScript interfaces
-│   └── utils.ts         # Helper functions
-├── pages/               # Page components
-└── App.tsx              # Main app component
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```
-### Features
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- 🔄 Real-time price updates (simulated WebSocket)
-- 📊 Sortable data columns
-- 🎨 Visual indicators for price changes
-- 📱 Fully responsive design
-- 📈 7-day price charts
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## How It Works
+## Learn More
 
-The app simulates WebSocket connections to fetch cryptocurrency data at regular intervals (every 0.5 seconds). All state is managed through Redux, with no local component state for the data.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-When prices update, a brief highlight animation shows which values have changed, giving users immediate visual feedback.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-The table allows sorting by any column, making it easy to track top performers or biggest market caps at a glance.
+### Code Splitting
 
-## Next Steps
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Some things I'm planning to add:
+### Analyzing the Bundle Size
 
-- Filtering options
-- Search functionality
-- Light/dark theme toggle
-- Real WebSocket integration with actual market data
-- Persisting favorites to localStorage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
